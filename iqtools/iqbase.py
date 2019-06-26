@@ -11,7 +11,7 @@ from scipy.io import wavfile
 from scipy.signal import welch, find_peaks_cwt
 from abc import ABCMeta, abstractmethod
 from scipy.signal.windows import dpss
-from multitaper import *
+from mtspec import *
 
 
 class IQBase(object):
